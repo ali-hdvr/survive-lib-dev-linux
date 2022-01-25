@@ -1,6 +1,6 @@
 project(SpreeSurviveLibUT VERSION 0.0.1)
 
-include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../include"
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../../survive-lib/include"
   "${CMAKE_CURRENT_SOURCE_DIR}/../includeut"
   "${CMAKE_CURRENT_SOURCE_DIR}/../unittest_common")
 
