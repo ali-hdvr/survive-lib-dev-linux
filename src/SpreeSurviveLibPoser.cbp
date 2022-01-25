@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SpreeSurviveLibPoser"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spreeposer">
+				<Option output="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/libspreeposer.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/../include"/>
+					<Add directory="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 spreeposer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spreeposer/fast">
+				<Option output="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/libspreeposer.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/../include"/>
+					<Add directory="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 spreeposer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/include/mpfit/mpfit.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/include/mpfit/mpfit.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/include/redist/linmath.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/include/redist/linmath.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/LighthouseOOTX.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/LighthouseOOTX.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/controller.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/controller.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/definitions.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/io_handler2.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/io_handler2.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/objects.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/objects.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/p3p.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/p3p.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/posemanager.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/posemanager.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser_mpfit.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser_mpfit.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser_p3plt_reproj.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser_p3plt_reproj.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser_p3plt_reproj_wrapper.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/poser_p3plt_reproj_wrapper.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/reproject_generated.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/utils.cpp">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/utils.h">
+			<Option target="spreeposer"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/alexa/Documents/github/survive-lib/spreeposer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
