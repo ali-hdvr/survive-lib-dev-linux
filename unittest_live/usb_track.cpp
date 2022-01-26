@@ -134,21 +134,31 @@ void process_sync(SYNC sync)
 	// printSync(sync);
 	// writeSyncToFile(sync);
 
-	SpreePoseData spd = Poser::Sync(sync);
-	SpreePose spose = spd.pose;
+	int spd = Poser::Sync(sync);
 
-	std::cout << "ch:" << sync.channel << " update:" << spd.is_updated << " method: " << spd.pose_method
-			  << " returned pose: " << spose.Pos[0] << " " << spose.Pos[1] << " " << spose.Pos[2] << " "
-			  << spose.Rot[0] << " " << spose.Rot[1] << " " << spose.Rot[2] << " " << spose.Rot[3] << " " << std::endl;
+	SpreePoseData cur_pose_data = Poser::QueryPose();
+
+	std::cout << "q ts:" << cur_pose_data.timestamp << " updated:" << cur_pose_data.isUpdated << " Method:"
+			  << cur_pose_data.poseMethod << " Pos:" << cur_pose_data.position.transpose() << " Rot:"
+			  << cur_pose_data.rotation << std::endl;
+
+	// std::cout << "Sync processed : " << spd << std::endl;
+
+	// std::cout << "ch:" << sync.channel << " update:" << spd.is_updated << " method: " << spd.pose_method
+	// 		  << " returned pose: " << spose.Pos[0] << " " << spose.Pos[1] << " " << spose.Pos[2] << " "
+	// 		  << spose.Rot[0] << " " << spose.Rot[1] << " " << spose.Rot[2] << " " << spose.Rot[3] << " " << std::endl;
 
 	LinmathPose estimate = {{
-								spose.Pos[0],
-								spose.Pos[1],
-								spose.Pos[2],
+								cur_pose_data.position(0),
+								cur_pose_data.position(1),
+								cur_pose_data.position(2),
 							},
-							{0}};
+							{cur_pose_data.rotation.w(),
+							 cur_pose_data.rotation.x(),
+							 cur_pose_data.rotation.y(),
+							 cur_pose_data.rotation.z()}};
 
-	quatcopy(estimate.Rot, spose.Rot);
+	// quatcopy(estimate.Rot, spose.Rot);
 
 	sendPoseUDP("32", &estimate);
 }

@@ -1046,3 +1046,5 @@ src/.ninja_deps
 src/.ninja_log
 
 src/build.ninja
+
+unit_test_live
